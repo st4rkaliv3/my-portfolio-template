@@ -1,0 +1,38 @@
+:root {
+	--brand-900: #bf7506;
+	font-size: 16px;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.navbar {
+	max-width: 54.375rem;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2.5rem;
+}
+.site-menu__list {
+	padding: 0;
+}
+.site-menu__item {
+	display: inline-block;
+	list-style: none;
+}
+.site-menu__link {
+	text-decoration: none;
+	color: var(--brand-900);
+	margin-left: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.site-menu__link:first-child {
+	margin-left: none;
+}
+.site-menu__link_active {
+	font-weight: 700;
+}
