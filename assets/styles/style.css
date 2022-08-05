@@ -22,16 +22,16 @@ body {
 .site-menu__item {
 	display: inline-block;
 	list-style: none;
+	margin-left: 1.5rem;
+}
+.site-menu__item:first-child {
+	margin-left: 0;
 }
 .site-menu__link {
 	text-decoration: none;
 	color: var(--brand-900);
-	margin-left: 1.5rem;
 	font-weight: 400;
 	line-height: 1.5;
-}
-.site-menu__link:first-child {
-	margin-left: none;
 }
 .site-menu__link_active {
 	font-weight: 700;
