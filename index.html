@@ -10,10 +10,16 @@
 		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 	</head>
 	<body>
-		<div class="navbar">
+		<div class="navbar container">
 			<img class="navbar__logo logo" src="assets/images/logo.svg" alt="Logo">
 			<nav class="navbar__menu site-menu">
 				<ul class="site-menu__list">
+					<li class="site-menu__item">
+						<select class="site-menu__lang-menu lang-menu" onchange="aoLocaleUpdate(this.options[this.selectedIndex].value);">
+							<option class="lang-menu__item" value="en">English</option>
+							<option class="lang-menu__item" value="ru" selected>Русский</option>
+						</select>
+					</li>
 					<li class="site-menu__item">
 						<a href="#" class="site-menu__link site-menu__link_active" data-aoid="menuMain">Главная</a>
 					</li>
@@ -29,6 +35,53 @@
 				</ul>
 			</nav>
 		</div>
+		<header class="hello container">
+			<img src="assets/images/ava.png" data-aoid="personName" data-aoprop="alt" alt="My face" class="hello__ava">
+			<div class="hello__text-box">
+				<strong class="hello__big" data-aoid="hi" data-aoadd="pre">&nbsp;&#128075;</strong>
+				<h1 class="hello__sub-h">
+					<span class="hello__sub-h-highlight">
+						<span data-aoid="iAm">Я</span>
+						<span data-aoid="myProfession">фронтенд-разработчик и веб-дизайнер</span>
+					</span>
+					<br/>
+					<span data-aoid="myNameIs">Меня зовут</span>
+					<span data-aoid="personName">Миккель Кремниедолиновский</span>
+					<span data-aoid="andIdo">и я делаю</span>
+					<span data-aoid="whatIdo">сайты для людей и компаний</span>
+				</h1>
+				<div class="hello__bragging bragging">
+					<ul class="bragging__links bragging-links">
+						<li class="bragging-links__item">
+							<a href="#" class="bragging-links__link">
+								<img src="assets/images/icons/linkedin.svg" alt="linkedin" class="bragging-links__icon">
+							</a>
+						</li>
+						<li class="bragging-links__item">
+							<a href="#" class="bragging-links__link">
+								<img src="assets/images/icons/twitter.svg" alt="twitter" class="bragging-links__icon">
+							</a>
+						</li>
+						<li class="bragging-links__item">
+							<a href="#" class="bragging-links__link">
+								<img src="assets/images/icons/github.svg" alt="github" class="bragging-links__icon">
+							</a>
+						</li>
+						<li class="bragging-links__item">
+							<a href="#" class="bragging-links__link">
+								<img src="assets/images/icons/stackoverflow.svg" alt="stackoverflow" class="bragging-links__icon">
+							</a>
+						</li>
+						<li class="bragging-links__item">
+							<a href="#" class="bragging-links__link">
+								<img src="assets/images/icons/youtube.svg" alt="youtube" class="bragging-links__icon">
+							</a>
+						</li>
+					</ul>
+					<a download href="#" class="bragging__cv" data-aoid="dlCv">Скачать резюме</a>
+				</div>
+			</div>
+		</header>
 		<script type="text/javascript" src="utils/adjustable-output-data.js"></script>
 		<script type="text/javascript" src="utils/adjustable-output.js"></script>
 	</body>

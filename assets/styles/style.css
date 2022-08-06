@@ -1,16 +1,27 @@
 :root {
+	/* цветовая палитра */
 	--brand-900: #bf7506;
+	--neutral-900: #211b12;
+	/* масштаб (для rem'ов) */
 	font-size: 16px;
+}
+
+input, select {
+	outline: none;
 }
 
 body {
 	font-family: "Inter", sans-serif;
+	color: var(--neutral-900);
 }
 
-.navbar {
+.container {
 	max-width: 54.375rem;
 	width: 100%;
 	margin: auto;
+}
+
+.navbar {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -32,4 +43,74 @@ body {
 }
 .site-menu__link_active {
 	font-weight: 700;
+}
+.site-menu__lang-menu {
+	display: inline-block;
+}
+.lang-menu {
+	font-family: 'Inter', sans-serif;
+}
+
+.hello {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 4.5rem;
+}
+.hello__ava {
+	display: inline-block;
+	width: 13.25rem;
+}
+.hello__text-box {
+	margin-left: 1.6875rem;
+	display: inline-block;
+}
+.hello__big {
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.25;
+}
+.hello__sub-h {
+	margin-top: 0.5rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+	line-height: 1.35;
+	letter-spacing: -0.02em;
+}
+.hello__sub-h-highlight {
+	color: var(--brand-900);
+}
+.hello__bragging {
+	margin-top: 1.5rem;
+}
+
+.bragging {
+	display: flex;
+	align-items: center;
+}
+.bragging-links {
+	list-style: none;
+	padding: 0;
+}
+.bragging-links__item {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+.bragging-links__item:last-child {
+	margin-right: 0;
+}
+.bragging-links__link {
+	display: inline-block;
+}
+.bragging__cv {
+	display: inline-block;
+	margin-left: 3.4375rem;
+	padding: 0.4375rem 0.5rem 0.3125rem 2.25rem;
+	text-decoration: none;
+	color: var(--neutral-900);
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 1rem;
+	border-bottom: 0.125rem solid var(--brand-900);
+	background: url('../images/icons/attach.svg') no-repeat 0.5rem 0.4375rem / 1.5rem 1.5rem;
 }

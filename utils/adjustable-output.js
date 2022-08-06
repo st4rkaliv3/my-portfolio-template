@@ -5,6 +5,15 @@ const ao = {
 	locale: 'ru'
 };
 
+(() => {
+	const addingFields = document.querySelectorAll('[data-aoadd]');
+	addingFields.forEach(e => {
+		let outProp = e.dataset.aoprop || 'textContent';
+		if (e.dataset.aoadd === 'pre' || e.dataset.aoadd === 'post') {
+			e.dataset.aoinitial = e[outProp];
+		}
+	});
+})();
 /*
 data-aoid - идентификатор фразы
 data-aoprop - куда именно выводить (по умолчанию - textContent)
@@ -17,21 +26,24 @@ const aoValuesOutput = locale => {
 	const fields = document.querySelectorAll('[data-aoid]');
 	fields.forEach(e => {
 		let outProp = e.dataset.aoprop || 'textContent';
-		if (ao.values[e.dataset.aoid]) {
+		if (ao.values[e.dataset.aoid] || ao.values[e.dataset.aoid] === '') {
 			let v = ao.values[e.dataset.aoid][ao.locale] || ao.values[e.dataset.aoid][ao.fallbackLocale] || '';
 			if (v) {
 				if (e.dataset.aoadd === 'pre') {
-					e[outProp] = v + e[outProp];
+					e[outProp] = v + e.dataset.aoinitial;
 				} else if (e.dataset.aoadd === 'post') {
-					e[outProp] += v;
+					e[outProp] = e.dataset.aoinitial + v;
 				} else {
 					e[outProp] = v;
 				}
 			}
-		} else {
-			e[outProp] = '';
 		}
 	});
 };
+
+const aoLocaleUpdate = locale => {
+	ao.locale = locale || ao.locale || ao.fallbackLocale;
+	aoValuesOutput();
+}
 
 aoValuesOutput();
