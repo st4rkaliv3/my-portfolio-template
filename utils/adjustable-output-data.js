@@ -49,5 +49,19 @@ const aoLoadValues = () => ({
 	dlCv: {
 		ru: 'Скачать резюме',
 		en: 'Download CV'
+	},
+
+	lastProjects: {
+		ru: 'Последние проекты',
+		en: 'Last projects'
+	},
+
+	code: {
+		ru: 'Код',
+		en: 'Code'
+	},
+	demo: {
+		ru: 'Демо',
+		en: 'Demo'
 	}
 });
