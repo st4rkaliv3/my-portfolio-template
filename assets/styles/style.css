@@ -14,6 +14,7 @@ input, select {
 body {
 	font-family: "Inter", sans-serif;
 	color: var(--neutral-900);
+	padding: 0 0.125rem;
 }
 
 .container {
@@ -128,14 +129,16 @@ body {
 	color: var(--brand-900);
 }
 .portfolio__cards {
-	margin-top: 2rem;
+	margin-top: 1rem;
 	list-style: none;
 	padding: 0;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: flex-start;
 }
 .portfolio__card {
+	margin: 1rem 0;
 	flex: 0 0 25rem;
 }
 .work-card {
