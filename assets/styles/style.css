@@ -24,9 +24,6 @@ body {
 	list-style: none;
 	margin-left: 1.5rem;
 }
-.site-menu__item:first-child {
-	margin-left: 0;
-}
 .site-menu__link {
 	text-decoration: none;
 	color: var(--brand-900);
