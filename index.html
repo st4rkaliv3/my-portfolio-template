@@ -23,21 +23,21 @@
 						</select>
 					</li>
 					<li class="site-menu__item">
-						<a href="#" class="site-menu__link site-menu__link_active" data-aoid="menuMain">Главная</a>
+						<a href="#main" class="site-menu__link site-menu__link_active" data-aoid="menuMain">Главная</a>
 					</li>
 					<li class="site-menu__item">
-						<a href="#" class="site-menu__link" data-aoid="menuProjects">Проекты</a>
+						<a href="#projects" class="site-menu__link" data-aoid="menuProjects">Проекты</a>
 					</li>
 					<li class="site-menu__item">
-						<a href="#" class="site-menu__link" data-aoid="menuAbout">Обо мне</a>
+						<a href="#about" class="site-menu__link" data-aoid="menuAbout">Обо мне</a>
 					</li>
 					<li class="site-menu__item">
-						<a href="#" class="site-menu__link" data-aoid="menuContact">Связаться</a>
+						<a href="#contact" class="site-menu__link" data-aoid="menuContact">Связаться</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
-		<header class="hello container">
+		<header class="hello container" id="main">
 			<img src="assets/images/ava.png" data-aoid="personName" data-aoprop="alt" alt="My face" class="hello__ava">
 			<div class="hello__text-box">
 				<strong class="hello__big" data-aoid="hi" data-aoadd="pre">&nbsp;&#128075;</strong>
@@ -80,12 +80,12 @@
 							</a>
 						</li>
 					</ul>
-					<a download href="#" class="bragging__cv" data-aoid="dlCv">Скачать резюме</a>
+					<a download href="cv.pdf" class="bragging__cv" data-aoid="dlCv">Скачать резюме</a>
 				</div>
 			</div>
 		</header>
 
-		<section class="portfolio container">
+		<section class="portfolio container" id="projects">
 			<h2 class="portfolio__big" data-aoid="lastProjects">Последние проекты</h2>
 			<ul class="portfolio__cards">
 				<li class="portfolio__card work-card">
@@ -103,11 +103,11 @@
 					</div>
 					<div class="work-card__view-box">
 						<a href="#" class="work-card__view link-button">
-							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon">
+							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon" style="width: 1.5rem">
 							<span data-aoid="code" class="link-button__sub">Код</span>
 						</a>
 						<a href="#" class="work-card__view link-button">
-							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon">
+							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon" style="width: 1.5rem">
 							<span data-aoid="demo" class="link-button__sub">Демо</span>
 						</a>
 					</div>
@@ -124,18 +124,18 @@
 					</div>
 					<div class="work-card__view-box">
 						<a href="#" class="work-card__view link-button">
-							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon">
+							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon" style="width: 1.5rem">
 							<span data-aoid="code" class="link-button__sub">Код</span>
 						</a>
 						<a href="#" class="work-card__view link-button">
-							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon">
+							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon" style="width: 1.5rem">
 							<span data-aoid="demo" class="link-button__sub">Демо</span>
 						</a>
 					</div>
 				</li>
 			</ul>
 		</section>
-		<section class="developer container">
+		<section class="developer container" id="about">
 			<img class="developer__photo" src="assets/images/photo.jpg" data-aoid="personName" data-aoprop="alt" alt="">
 			<div class="developer__about dev-about">
 				<div class="dev-about__hello" data-aoid="gladToSeeYou">Рад вас видеть</div>
@@ -177,8 +177,8 @@
 				<li class="skills__item dev-tech dev-tech_large">SASS</li>
 			</ul>
 		</section>
-		<section class="discuss-offer">
-			<!-- <div class="discuss-offer__pointing-hand"></div> -->
+		<section class="discuss-offer" id="contact">
+			<img src="assets/images/pointing-hand.png" alt="" class="discuss-offer__pointing-hand">
 			<div class="container container_discuss">
 				<h2 class="discuss-offer__big" data-aoid="readyDiscussProject">
 					Готов обсудить проект...
@@ -197,7 +197,7 @@
 						<textarea name="msg" id="d-msg" cols="30" rows="10" required class="form-input-group__input form-input form-input_multiline"></textarea>
 					</div>
 					<button type="submit" class="form__send-button link-button">
-						<img src="assets/images/icons/send.svg" data-aoid="send" data-aoprop="alt" alt="Отправить" class="link-button__icon">
+						<img src="assets/images/icons/send.svg" data-aoid="send" data-aoprop="alt" alt="Отправить" class="link-button__icon" style="width:1.3125rem">
 						<span data-aoid="send" class="link-button__sub">Отправить</span>
 					</button>
 				</form>
