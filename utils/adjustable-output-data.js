@@ -116,5 +116,9 @@ const aoLoadValues = () => ({
 	inWhichPlace: {
 		ru: 'в Санкт-Петербурге',
 		en: 'in Saint-Petersburg'
+	},
+	thanksReceivedRequest: {
+		ru: 'Спасибо,<br> заявку получили',
+		en: 'Thank you,<br> we\'ve got your request'
 	}
 });
