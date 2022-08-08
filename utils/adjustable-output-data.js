@@ -63,5 +63,58 @@ const aoLoadValues = () => ({
 	demo: {
 		ru: 'Демо',
 		en: 'Demo'
+	},
+
+	gladToSeeYou: {
+		ru: 'Рад вас видеть',
+		en: 'Glad to see you'
+	},
+	whatIdoMore: {
+		ru: 'Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.',
+		en: 'I develop web sites for people and companies. Everything is done by myself: I create prototype and design layout and write code.'
+	},
+	codeDesignLearning: {
+		ru: 'Код, Дизайн, Обучение',
+		en: 'Code, Design, Learning'
+	},
+	whatIdoMore2: {
+		ru: 'Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: ',
+		en: 'I can build a web page for your company, even if it has to be launched tomorrow. My tools include: '
+	},
+	myTools: {
+		ru: 'Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress',
+		en: 'Tilda, Webflow, Figma, HTML, CSS, JavaScript and Wordpress'
+	},
+	signing: {
+		ru: 'Подпись',
+		en: 'Signing'
+	},
+	workVariousLangsTools: {
+		ru: 'Работаю с разными языками и инструментами',
+		en: 'I work with various languages and tools'
+	},
+	readyDiscussProject: {
+		ru: 'Готов обсудить проект...',
+		en: 'Ready to discuss project...'
+	},
+	name: {
+		ru: 'Имя',
+		en: 'Name'
+	},
+	message: {
+		ru: 'Сообщение',
+		en: 'Message'
+	},
+	send: {
+		ru: 'Отправить',
+		en: 'Send'
+	},
+	madeWith: {
+		ru: 'Сделано с',
+		en: 'Made with'
+	},
+	inWhichPlace: {
+		ru: 'в Санкт-Петербурге',
+		en: 'in Saint-Petersburg'
 	}
 });

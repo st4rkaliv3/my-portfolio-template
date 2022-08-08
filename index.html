@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title data-aoid="personName" data-aoadd="pre">&nbsp;&ndash;&nbsp;веб-разработчик, фрилансер</title>
 		<link rel="stylesheet" type="text/css" href="assets/fonts/inter/font.css">
+		<link rel="stylesheet" type="text/css" href="assets/fonts/HelveticaNeueCyr/font.css">
 		<link rel="stylesheet" type="text/css" href="assets/styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -101,13 +102,13 @@
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</div>
 					<div class="work-card__view-box">
-						<a href="#" class="work-card__view work-card-view">
-							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="work-card-view__icon">
-							<span data-aoid="code" class="work-card-view__sub">Код</span>
+						<a href="#" class="work-card__view link-button">
+							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon">
+							<span data-aoid="code" class="link-button__sub">Код</span>
 						</a>
-						<a href="#" class="work-card__view work-card-view">
-							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="work-card-view__icon">
-							<span data-aoid="demo" class="work-card-view__sub">Демо</span>
+						<a href="#" class="work-card__view link-button">
+							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon">
+							<span data-aoid="demo" class="link-button__sub">Демо</span>
 						</a>
 					</div>
 				</li>
@@ -122,18 +123,93 @@
 						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</div>
 					<div class="work-card__view-box">
-						<a href="#" class="work-card__view work-card-view">
-							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="work-card-view__icon">
-							<span data-aoid="code" class="work-card-view__sub">Код</span>
+						<a href="#" class="work-card__view link-button">
+							<img src="assets/images/icons/code.svg" alt="&lt;&nbsp;&gt;" class="link-button__icon">
+							<span data-aoid="code" class="link-button__sub">Код</span>
 						</a>
-						<a href="#" class="work-card__view work-card-view">
-							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="work-card-view__icon">
-							<span data-aoid="demo" class="work-card-view__sub">Демо</span>
+						<a href="#" class="work-card__view link-button">
+							<img src="assets/images/icons/demo.svg" alt="&#10004;" class="link-button__icon">
+							<span data-aoid="demo" class="link-button__sub">Демо</span>
 						</a>
 					</div>
 				</li>
 			</ul>
 		</section>
+		<section class="developer container">
+			<img class="developer__photo" src="assets/images/photo.jpg" data-aoid="personName" data-aoprop="alt" alt="">
+			<div class="developer__about dev-about">
+				<div class="dev-about__hello" data-aoid="gladToSeeYou">Рад вас видеть</div>
+				<h2 class="dev-about__who-am-i">
+					<span data-aoid="iAm">Я</span>
+					<span data-aoid="personName">Миккель Кремниедолиновский</span>
+				</h2>
+				<div class="dev-about__sub" data-aoid="whatIdoMore">
+					Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.
+				</div>
+				<h3 class="dev-about__code-design-learning" data-aoid="codeDesignLearning">
+					Код, Дизайн, Обучение
+				</h3>
+				<div class="dev-about__sub">
+					<span data-aoid="whatIdoMore2">
+						Могу собрать страницу для вашей компании, даже если запускать её нужно уже завтра. Из инструментов есть: 
+					</span>
+					<br/>
+					<span data-aoid="myTools">
+						Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
+					</span>
+				</div>
+				<img src="assets/images/signing.png" data-aoid="signing" data-aoprop="alt" alt="Подпись" class="dev-about__signing">
+			</div>
+		</section>
+		<section class="skills container">
+			<h2 class="skills__big" data-aoid="workVariousLangsTools">
+				Работаю с разными языками и инструментами
+			</h2>
+			<ul class="skills__list">
+				<li class="skills__item dev-tech dev-tech_large">HTML</li>
+				<li class="skills__item dev-tech dev-tech_large">CSS</li>
+				<li class="skills__item dev-tech dev-tech_large">JavaScript</li>
+				<li class="skills__item dev-tech dev-tech_large">Wordpress</li>
+				<li class="skills__item dev-tech dev-tech_large">npm</li>
+				<li class="skills__item dev-tech dev-tech_large">Reactjs</li>
+				<li class="skills__item dev-tech dev-tech_large">Nextjs</li>
+				<li class="skills__item dev-tech dev-tech_large">UI Design</li>
+				<li class="skills__item dev-tech dev-tech_large">SASS</li>
+			</ul>
+		</section>
+		<section class="discuss-offer">
+			<!-- <div class="discuss-offer__pointing-hand"></div> -->
+			<div class="container container_discuss">
+				<h2 class="discuss-offer__big" data-aoid="readyDiscussProject">
+					Готов обсудить проект...
+				</h2>
+				<form action="#" method="POST" class="discuss-offer__form form">
+					<div class="form__input-group form-input-group">
+						<label for="d-name" data-aoid="name" class="form-input-group__label">Имя</label>
+						<input type="text" id="d-name" name="name" required class="form-input-group__input form-input">
+					</div>
+					<div class="form__input-group form-input-group">
+						<label for="d-email" class="form-input-group__label">Email</label>
+						<input type="email" id="d-email" name="email" required class="form-input-group__input form-input">
+					</div>
+					<div class="form__input-group form-input-group">
+						<label for="d-msg" data-aoid="message" class="form-input-group__label">Сообщение</label>
+						<textarea name="msg" id="d-msg" cols="30" rows="10" required class="form-input-group__input form-input form-input_multiline"></textarea>
+					</div>
+					<button type="submit" class="form__send-button link-button">
+						<img src="assets/images/icons/send.svg" data-aoid="send" data-aoprop="alt" alt="Отправить" class="link-button__icon">
+						<span data-aoid="send" class="link-button__sub">Отправить</span>
+					</button>
+				</form>
+			</div>
+		</section>
+		<footer class="footer container">
+			<div class="footer__info">
+				<span data-aoid="madeWith">Сделано с</span>
+				&hearts;
+				<span data-aoid="inWhichPlace">в Казани</span>
+			</div>
+		</footer>
 		<script type="text/javascript" src="utils/adjustable-output-data.js"></script>
 		<script type="text/javascript" src="utils/adjustable-output.js"></script>
 	</body>
