@@ -1,10 +1,4 @@
 :root {
-	/* цветовая палитра */
-	--brand-900: #bf7506;
-	--brand-500: #dd9c3c;
-	--neutral-900: #211b12;
-	--neutral-500: #83807c;
-	--neutral-100: #e0dedc;
 	/* масштаб (для rem'ов) */
 	font-size: 16px;
 }
