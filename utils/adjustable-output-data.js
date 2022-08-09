@@ -30,8 +30,8 @@ const aoLoadValues = () => ({
 		en: 'I am'
 	},
 	myProfession: {
-		ru: 'фронтенд-разработчик и веб-дизайнер',
-		en: 'frontend developer and web designer'
+		ru: 'фронтенд веб-разработчик',
+		en: 'frontend web developer'
 	},
 	myNameIs: {
 		ru: 'Меня зовут',
@@ -70,8 +70,8 @@ const aoLoadValues = () => ({
 		en: 'Glad to see you'
 	},
 	whatIdoMore: {
-		ru: 'Я разрабатываю сайты для людей и компаний. Делаю всё сам: составляю прототип, дизайн-макет, пишу код.',
-		en: 'I develop web sites for people and companies. Everything is done by myself: I create prototype and design layout and write code.'
+		ru: 'Я разрабатываю сайты для людей и компаний. Пишу код, воплощая дизайн-макет в реальность.',
+		en: 'I develop web sites for people and companies. I write code making your design layout a reality.'
 	},
 	codeDesignLearning: {
 		ru: 'Код, Дизайн, Обучение',
@@ -82,8 +82,8 @@ const aoLoadValues = () => ({
 		en: 'I can build a web page for your company, even if it has to be launched tomorrow. My tools include: '
 	},
 	myTools: {
-		ru: 'Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress',
-		en: 'Tilda, Webflow, Figma, HTML, CSS, JavaScript and Wordpress'
+		ru: 'HTML, CSS, SCSS, JavaScript, React.js, PHP, MySQL',
+		en: 'HTML, CSS, SCSS, JavaScript, React.js, PHP, MySQL'
 	},
 	signing: {
 		ru: 'Подпись',

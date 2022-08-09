@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="stackoverflow.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.3419943"
+     inkscape:cx="17.66006"
+     inkscape:cy="26.253571"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 31.76404,16.376865 22.873008,3.4448104 20.088027,5.3276085 28.979554,18.25598 31.764371,16.373232 Z m -3.332795,2.341049 -13.592618,-7.952961 -1.713136,2.877633 13.593609,7.950318 1.712476,-2.878293 z m -1.989603,3.822806 -15.239197,-4.065251 -0.876304,3.227593 15.240684,4.062773 0.874817,-3.227923 z M 25.40514,26.899282 9.6912911,25.463439 9.3816285,28.792271 25.096138,30.226628 Z M 35.689736,15.596515 32.990304,0.18159426 l -3.32173,0.5713316 2.699432,15.41815814 3.32173,-0.571431 z m -10.663953,18.930707 -15.7815621,0.0074 -0.00132,-3.342209 15.7810661,-0.0081 0.0018,3.34287 z"
+     fill="#ff810f"
+     id="path20"
+     style="stroke-width:1.65153" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 27.705726,23.533291 v 13.66314 H 7.0065577 V 23.533291 H 4.3102636 V 39.818406 H 30.388313 V 23.533291 Z"
+     fill="#bebcbc"
+     id="path22"
+     style="stroke-width:1.65153" />
+</svg>

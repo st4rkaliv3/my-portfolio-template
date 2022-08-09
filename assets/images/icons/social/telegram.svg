@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   version="1.1"
+   preserveAspectRatio="xMidYMid"
+   id="svg12"
+   sodipodi:docname="telegram.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="40px"
+     inkscape:zoom="5.5357336"
+     inkscape:cx="21.677344"
+     inkscape:cy="26.464424"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <g
+     id="g10"
+     transform="scale(0.15625)">
+    <path
+       d="M 128,0 C 57.307,0 0,57.307 0,128 v 0 c 0,70.693 57.307,128 128,128 v 0 c 70.693,0 128,-57.307 128,-128 v 0 C 256,57.307 198.693,0 128,0 Z"
+       fill="#40b3e0"
+       id="path2" />
+    <path
+       d="m 190.2826,73.6308 -22.862,115.267 c 0,0 -3.197,7.994 -11.99,4.157 l -52.758,-40.448 -19.184,-9.272 -32.294,-10.872 c 0,0 -4.956,-1.758 -5.436,-5.595 -0.479,-3.837 5.596,-5.915 5.596,-5.915 l 128.376,-50.36 c 0,0 10.552,-4.636 10.552,3.038"
+       fill="#ffffff"
+       id="path4" />
+    <path
+       d="m 98.6178,187.6035 c 0,0 -1.54,-0.144 -3.459,-6.22 -1.918,-6.075 -11.67,-38.049 -11.67,-38.049 l 77.537,-49.24 c 0,0 4.477,-2.718 4.317,0 0,0 0.799,0.479 -1.599,2.717 -2.398,2.239 -60.911,54.836 -60.911,54.836"
+       fill="#d2e5f1"
+       id="path6" />
+    <path
+       d="m 122.9015,168.1154 -20.868,19.026 c 0,0 -1.631,1.238 -3.416,0.462 l 3.996,-35.341"
+       fill="#b5cfe4"
+       id="path8" />
+  </g>
+</svg>

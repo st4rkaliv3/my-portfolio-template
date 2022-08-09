@@ -116,7 +116,8 @@ body {
 	display: inline-block;
 }
 .bragging-links__icon {
-	width: 100%;
+	width: 60%;
+	margin: 0.5rem;
 }
 .bragging__cv {
 	display: inline-block;
@@ -388,6 +389,9 @@ body {
 	.portfolio__card {
 		flex: 0 0 21.875rem;
 	}
+	.work-card__big {
+		font-size: 1.25rem;
+	}
 }
 @media (max-width: 55rem) {
 	.discuss-offer__pointing-hand {
@@ -404,6 +408,9 @@ body {
 	}
 	.hello__ava {
 		max-width: 9.375rem;
+	}
+	.work-card__big {
+		font-size: 1.5rem;
 	}
 	.bragging-links__item {
 		margin-right: 0;

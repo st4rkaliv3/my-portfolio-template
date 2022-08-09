@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="youtube.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs80" />
+  <sodipodi:namedview
+     id="namedview78"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.2741018"
+     inkscape:cx="15.779151"
+     inkscape:cy="26.697048"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg76" />
+  <path
+     d="m 32.015,33.333667 h -24 c -4.4,0 -8,-3.6 -8,-8 V 14.667 c 0,-4.4 3.6,-8 8,-8 h 24 c 4.4,0 8,3.6 8,8 v 10.666667 c 0,4.4 -3.6,8 -8,8 z"
+     fill="#c2191e"
+     id="path72"
+     style="stroke-width:1.77778" />
+  <path
+     d="M 14.681667,26.667 V 13.333667 L 28.015,20.000333 Z"
+     fill="#ffffff"
+     id="path74"
+     style="stroke-width:1.77778" />
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg47"
+   sodipodi:docname="twitter.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.4438701"
+     inkscape:cx="14.511735"
+     inkscape:cy="26.176231"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg47" />
+  <g
+     clip-path="url(#clip0_3_368)"
+     id="g40"
+     transform="matrix(1.6666667,0,0,1.6666667,-13.333334,-12.666834)">
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 32,12.3676 c -0.8962,0.4081 -1.8498,0.676 -2.8273,0.7945 1.017,-0.624 1.7975,-1.6137 2.1652,-2.7923 -0.9525,0.5779 -2.0044,0.9983 -3.1288,1.2236 -0.8959,-0.9806 -2.1765,-1.5933 -3.5936,-1.5933 -2.7175,0 -4.9219,2.2606 -4.9219,5.0488 0,0.3956 0.0422,0.78 0.1268,1.1499 -4.0922,-0.2113 -7.7198,-2.2191 -10.15166,-5.2772 -0.42375,0.7481 -0.66638,1.6163 -0.66638,2.541 0,1.7509 0.86925,3.2963 2.19054,4.2023 -0.8057,-0.0244 -1.56654,-0.2543 -2.23123,-0.63 v 0.0618 c 0,2.4469 1.69743,4.4882 3.95133,4.9506 -0.4125,0.1185 -0.848,0.1778 -1.2975,0.1778 -0.3111,3e-4 -0.6216,-0.0297 -0.927,-0.0897 0.6269,2.0052 2.4441,3.4656 4.5994,3.5044 -1.6849,1.3551 -3.809,2.1624 -6.1151,2.1624 -0.3975,0 -0.79031,-0.023 -1.17488,-0.0693 2.17928,1.43 4.76848,2.2665 7.54778,2.2665 9.0582,0 14.0095,-7.6924 14.0095,-14.3648 0,-0.2182 -0.0043,-0.4363 -0.0128,-0.6544 0.9626,-0.7121 1.7981,-1.6005 2.4559,-2.6131"
+       fill="#00aaec"
+       id="path38" />
+  </g>
+  <defs
+     id="defs45">
+    <clipPath
+       id="clip0_3_368">
+      <rect
+         width="24"
+         height="24"
+         fill="white"
+         transform="translate(8 8)"
+         id="rect42" />
+    </clipPath>
+  </defs>
+</svg>
